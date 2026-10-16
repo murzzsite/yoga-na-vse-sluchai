@@ -1,0 +1,34 @@
+{
+  "siteName": "Йога онлайн",
+  "siteUrl": "https://murzzsite.github.io/yoga-na-vse-sluchai",
+  "lang": "ru",
+  "repo": "murzzsite/yoga-na-vse-sluchai",
+  "ref": "SHSL35F9DB",
+  "workerUrl": "https://lead-relay.leestygpt.workers.dev",
+  "blogTitle": "Блог",
+  "blogDescription": "Полезные статьи о йоге при боли в спине, осанке, дыхании и онлайн-занятиях с тренером",
+  "homeTitle": "Полезные статьи",
+  "author": {
+    "name": "Тренер по йоге",
+    "jobTitle": "",
+    "type": "Person"
+  },
+  "ctaTitle": "Остались вопросы?",
+  "ctaText": "Запишитесь на первое занятие: если на нём не будет результата, оно бесплатное. Подберём упражнения под вашу спину и график.",
+  "ctaButton": "Записаться на занятие",
+  "ctaUrl": "/#contact",
+  "disclaimer": "Материал носит информационный характер и не заменяет консультацию врача. Йога не является лечением. При острой боли, травмах, диагностированных заболеваниях позвоночника, беременности и других противопоказаниях перед занятиями проконсультируйтесь с врачом.",
+  "telegramNotify": true,
+  "cadenceDays": 7,
+  "homeLatest": 3,
+  "staticPages": [
+    "/"
+  ],
+  "indexNowKey": "be1adc7b147da5984e8eef73c2fd6577",
+  "previewSecret": "847ee89b45cb4b10",
+  "theme": {
+    "ink": "var(--ink)",
+    "soft": "var(--navy-soft)",
+    "line": "var(--line)"
+  }
+}

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /yoga-na-vse-sluchai/blog/preview/
+
+Sitemap: https://murzzsite.github.io/yoga-na-vse-sluchai/sitemap.xml
