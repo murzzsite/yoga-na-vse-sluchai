@@ -99,6 +99,20 @@ ul{list-style:none}
 .goal ul li{position:relative;padding-left:22px;margin-bottom:8px;font-size:14.5px;color:var(--ink)}
 .goal ul li::before{content:"";position:absolute;left:2px;top:9px;width:8px;height:8px;border-radius:50%;background:var(--gold)}
 
+/* COMPLEXES */
+.complex-title{font-size:22px;margin:48px 0 10px}
+.complex__grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+.complex{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:22px 18px}
+.complex b{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.04em;color:var(--gold-dark);background:var(--gold-soft);border-radius:999px;padding:3px 10px;margin-bottom:12px}
+.complex h4{font-family:'Fraunces',serif;font-size:18px;color:var(--navy);margin-bottom:6px}
+.complex p{font-size:14px;color:var(--ink-soft)}
+.complex--main{background:var(--navy);border-color:var(--navy)}
+.complex--main h4{color:#fff}
+.complex--main p{color:#D3E4D8}
+.complex--main b{background:var(--gold);color:var(--navy-dark)}
+@media (max-width:1100px){.complex__grid{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:560px){.complex__grid{grid-template-columns:1fr 1fr}.complex--main{grid-column:1/-1}}
+
 /* WHY */
 .why__box{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;background:var(--navy);border-radius:22px;padding:48px}
 .why__box h2{color:#fff;font-size:28px;margin-bottom:14px}
