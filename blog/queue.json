@@ -3,6 +3,38 @@
   "updated": "2026-10-29",
   "awaiting": [
     {
+      "slug": "individualnye-ili-gruppovye-zanyatiya-yogoy",
+      "path": "articles/individualnye-ili-gruppovye-zanyatiya-yogoy.md",
+      "title": "Индивидуальные занятия йогой или группа: что выбрать и как не ошибиться",
+      "description": "Чем индивидуальные занятия йогой отличаются от групповых, кому подходит каждый формат, как выбрать при больной спине и нехватке времени.",
+      "reading_time": "4 мин чтения",
+      "preview_url": "https://iogacigun.ru/blog/preview/2864e1d67aca/individualnye-ili-gruppovye-zanyatiya-yogoy/"
+    },
+    {
+      "slug": "yoga-pri-sidyachey-rabote",
+      "path": "articles/yoga-dlya-sidyachey-raboty.md",
+      "title": "Йога при сидячей работе: что делать, если к вечеру ломит спину",
+      "description": "Почему болит спина при сидячей работе, какие привычки помогают, как йога возвращает подвижность и энергию и сколько времени на неё нужно.",
+      "reading_time": "4 мин чтения",
+      "preview_url": "https://iogacigun.ru/blog/preview/8a2b35d85a9f/yoga-pri-sidyachey-rabote/"
+    },
+    {
+      "slug": "yoga-posle-35-s-chego-nachat",
+      "path": "articles/yoga-posle-35-s-chego-nachat.md",
+      "title": "Йога после 35: с чего начать женщине, которая давно не занималась спортом",
+      "description": "С чего начать йогу после 35 лет: как выбрать формат, что делать при болях в спине и нехватке времени, чего не стоит ждать и как не навредить.",
+      "reading_time": "4 мин чтения",
+      "preview_url": "https://iogacigun.ru/blog/preview/abec41800051/yoga-posle-35-s-chego-nachat/"
+    },
+    {
+      "slug": "yoga-pri-boli-v-poyasnice-uprazhneniya",
+      "path": "articles/yoga-pri-boli-v-poyasnice-uprazhneniya.md",
+      "title": "Йога при боли в пояснице: упражнения для начинающих и правила безопасности",
+      "description": "Йога при боли в пояснице: когда она допустима, какие мягкие упражнения подходят начинающим, чего избегать и почему лучше начинать с тренером.",
+      "reading_time": "5 мин чтения",
+      "preview_url": "https://iogacigun.ru/blog/preview/7b1820935146/yoga-pri-boli-v-poyasnice-uprazhneniya/"
+    },
+    {
       "slug": "yoga-pri-boli-v-spine-onlajn",
       "path": "articles/yoga-pri-boli-v-spine-onlajn.md",
       "title": "Йога при боли в спине: с чего начать и можно ли заниматься онлайн",

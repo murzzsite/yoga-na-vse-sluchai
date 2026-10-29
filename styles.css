@@ -265,3 +265,15 @@ ul{list-style:none}
 @media (max-width:380px){
   .logo__suffix{display:none}
 }
+
+/* SEO-страницы */
+.narrow{max-width:860px}
+.seo-h1{font-size:36px;margin-bottom:18px}
+.seo-p{color:var(--ink-soft);font-size:16.5px;margin-bottom:14px}
+.seo-note{margin-top:24px;font-size:13.5px;color:var(--ink-soft)}
+.crumbs{font-size:13.5px;color:var(--ink-soft);margin-bottom:18px}
+.crumbs a{color:var(--gold-dark);font-weight:600}
+.rel{margin-top:32px;display:flex;flex-direction:column;gap:8px}
+.rel b{font-family:'Fraunces',serif;color:var(--navy);margin-bottom:4px}
+.rel__link{color:var(--gold-dark);font-weight:600;text-decoration:underline}
+@media (max-width:900px){.seo-h1{font-size:28px}}
