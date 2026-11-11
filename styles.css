@@ -277,3 +277,10 @@ ul{list-style:none}
 .rel b{font-family:'Fraunces',serif;color:var(--navy);margin-bottom:4px}
 .rel__link{color:var(--gold-dark);font-weight:600;text-decoration:underline}
 @media (max-width:900px){.seo-h1{font-size:28px}}
+
+/* COOKIE */
+.cookie{position:fixed;left:16px;right:16px;bottom:16px;z-index:120;max-width:720px;margin:0 auto;background:var(--paper);border:1px solid var(--line);border-radius:16px;box-shadow:0 24px 48px -20px rgba(42,66,52,.35);padding:16px 20px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.cookie p{flex:1 1 240px;font-size:13.5px;color:var(--ink-soft)}
+.cookie a{color:var(--gold-dark);font-weight:600;text-decoration:underline}
+.cookie__actions{display:flex;gap:10px;flex-wrap:wrap}
+.cookie .btn{padding:10px 18px;font-size:14px}

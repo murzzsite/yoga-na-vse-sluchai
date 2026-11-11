@@ -2,6 +2,40 @@
   // ===== CONFIG =====
   const LEAD_ENDPOINT = 'https://lead-relay.leestygpt.workers.dev/lead/SHSL35F9DB';
 
+  const YM_ID = 114157475;
+
+  const loadMetrica = () => {
+    if (!YM_ID || window.ym) return;
+    (function (m, e, t, r, i, k, a) {
+      m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments); };
+      m[i].l = 1 * new Date();
+      k = e.createElement(t); a = e.getElementsByTagName(t)[0]; k.async = 1; k.src = r; a.parentNode.insertBefore(k, a);
+    })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js', 'ym');
+    window.ym(YM_ID, 'init', { clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: false });
+  };
+
+  // ===== COOKIE BANNER =====
+  let cookieChoice = null;
+  try { cookieChoice = localStorage.getItem('yoga_cookie'); } catch (_) {}
+  if (cookieChoice === 'all') loadMetrica();
+  if (!cookieChoice) {
+    const bar = document.createElement('div');
+    bar.className = 'cookie';
+    bar.setAttribute('role', 'dialog');
+    bar.setAttribute('aria-label', 'Использование cookie');
+    bar.innerHTML = '<p>Мы используем cookie, чтобы сайт работал, и сервис статистики Яндекс Метрика, чтобы понимать, что улучшить. Подробнее в <a href="/privacy.html#cookie">политике конфиденциальности</a>.</p>' +
+      '<div class="cookie__actions"><button type="button" class="btn btn--accent" data-c="all">Принять</button>' +
+      '<button type="button" class="btn btn--outline" data-c="necessary">Только необходимые</button></div>';
+    document.body.appendChild(bar);
+    bar.addEventListener('click', ev => {
+      const c = ev.target.closest('button')?.dataset.c;
+      if (!c) return;
+      try { localStorage.setItem('yoga_cookie', c); } catch (_) {}
+      bar.remove();
+      if (c === 'all') loadMetrica();
+    });
+  }
+
   // ===== UTILS =====
   const yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
@@ -70,6 +104,7 @@
       if (!resp.ok) throw new Error('HTTP ' + resp.status);
       btn.textContent = 'Заявка отправлена ✓';
       form.reset();
+      try { if (YM_ID && window.ym) window.ym(YM_ID, 'reachGoal', 'lead'); } catch (_) {}
     } catch (err) {
       console.error(err);
       btn.textContent = 'Ошибка, попробуйте ещё раз';
