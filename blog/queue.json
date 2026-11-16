@@ -3,14 +3,6 @@
   "updated": "2026-11-16",
   "awaiting": [
     {
-      "slug": "individualnye-ili-gruppovye-zanyatiya-yogoy",
-      "path": "articles/individualnye-ili-gruppovye-zanyatiya-yogoy.md",
-      "title": "Индивидуальные занятия йогой или группа: что выбрать и как не ошибиться",
-      "description": "Чем индивидуальные занятия йогой отличаются от групповых, кому подходит каждый формат, как выбрать при больной спине и нехватке времени.",
-      "reading_time": "4 мин чтения",
-      "preview_url": "https://iogacigun.ru/blog/preview/2864e1d67aca/individualnye-ili-gruppovye-zanyatiya-yogoy/"
-    },
-    {
       "slug": "yoga-pri-sidyachey-rabote",
       "path": "articles/yoga-dlya-sidyachey-raboty.md",
       "title": "Йога при сидячей работе: что делать, если к вечеру ломит спину",
@@ -44,5 +36,12 @@
     }
   ],
   "scheduled": [],
-  "published": []
+  "published": [
+    {
+      "slug": "individualnye-ili-gruppovye-zanyatiya-yogoy",
+      "title": "Индивидуальные занятия йогой или группа: что выбрать и как не ошибиться",
+      "url": "https://iogacigun.ru/blog/individualnye-ili-gruppovye-zanyatiya-yogoy/",
+      "date": "2026-11-16"
+    }
+  ]
 }
