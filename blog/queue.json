@@ -1,37 +1,27 @@
 {
   "site": "https://iogacigun.ru",
   "updated": "2026-11-16",
-  "awaiting": [
-    {
-      "slug": "yoga-posle-35-s-chego-nachat",
-      "path": "articles/yoga-posle-35-s-chego-nachat.md",
-      "title": "Йога после 35: с чего начать женщине, которая давно не занималась спортом",
-      "description": "С чего начать йогу после 35 лет: как выбрать формат, что делать при болях в спине и нехватке времени, чего не стоит ждать и как не навредить.",
-      "reading_time": "4 мин чтения",
-      "preview_url": "https://iogacigun.ru/blog/preview/abec41800051/yoga-posle-35-s-chego-nachat/"
-    },
-    {
-      "slug": "yoga-pri-boli-v-poyasnice-uprazhneniya",
-      "path": "articles/yoga-pri-boli-v-poyasnice-uprazhneniya.md",
-      "title": "Йога при боли в пояснице: упражнения для начинающих и правила безопасности",
-      "description": "Йога при боли в пояснице: когда она допустима, какие мягкие упражнения подходят начинающим, чего избегать и почему лучше начинать с тренером.",
-      "reading_time": "5 мин чтения",
-      "preview_url": "https://iogacigun.ru/blog/preview/7b1820935146/yoga-pri-boli-v-poyasnice-uprazhneniya/"
-    },
-    {
-      "slug": "yoga-pri-boli-v-spine-onlajn",
-      "path": "articles/yoga-pri-boli-v-spine-onlajn.md",
-      "title": "Йога при боли в спине: с чего начать и можно ли заниматься онлайн",
-      "description": "Можно ли заниматься йогой при боли в спине, как проходят индивидуальные занятия онлайн, когда сначала нужен врач и что почувствуете после первого занятия.",
-      "reading_time": "9 мин чтения",
-      "preview_url": "https://iogacigun.ru/blog/preview/a93dfd0dee35/yoga-pri-boli-v-spine-onlajn/"
-    }
-  ],
+  "awaiting": [],
   "scheduled": [
     {
       "slug": "yoga-pri-sidyachey-rabote",
       "title": "Йога при сидячей работе: что делать, если к вечеру ломит спину",
       "date": "2026-11-23"
+    },
+    {
+      "slug": "yoga-posle-35-s-chego-nachat",
+      "title": "Йога после 35: с чего начать женщине, которая давно не занималась спортом",
+      "date": "2026-11-30"
+    },
+    {
+      "slug": "yoga-pri-boli-v-poyasnice-uprazhneniya",
+      "title": "Йога при боли в пояснице: упражнения для начинающих и правила безопасности",
+      "date": "2026-12-07"
+    },
+    {
+      "slug": "yoga-pri-boli-v-spine-onlajn",
+      "title": "Йога при боли в спине: с чего начать и можно ли заниматься онлайн",
+      "date": "2026-12-14"
     }
   ],
   "published": [
