@@ -1,13 +1,8 @@
 {
   "site": "https://iogacigun.ru",
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "awaiting": [],
   "scheduled": [
-    {
-      "slug": "yoga-pri-sidyachey-rabote",
-      "title": "Йога при сидячей работе: что делать, если к вечеру ломит спину",
-      "date": "2026-11-23"
-    },
     {
       "slug": "yoga-posle-35-s-chego-nachat",
       "title": "Йога после 35: с чего начать женщине, которая давно не занималась спортом",
@@ -25,6 +20,12 @@
     }
   ],
   "published": [
+    {
+      "slug": "yoga-pri-sidyachey-rabote",
+      "title": "Йога при сидячей работе: что делать, если к вечеру ломит спину",
+      "url": "https://iogacigun.ru/blog/yoga-pri-sidyachey-rabote/",
+      "date": "2026-11-23"
+    },
     {
       "slug": "individualnye-ili-gruppovye-zanyatiya-yogoy",
       "title": "Индивидуальные занятия йогой или группа: что выбрать и как не ошибиться",
